@@ -1,3 +1,16 @@
-Hi, This is Tushar.
-Add-Bijur BurdhamaN
-#JU
+
+
+Steps to create a repo in local machine and link it with github repo
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/tusharmukherjee01/XYZ.git
+git push -u origin main
+
+when any change in your local machine means in git you done and now you want that change in github
+then run these comman
+1.git add .
+2. git commit -m "Second Commit" (message can be anything link "second ot third commit")
+3.git push
